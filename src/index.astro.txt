@@ -1,0 +1,23 @@
+---
+import PaginaBase from './layouts/PaginaBase.astro';
+import Card from './components/Card.astro';
+---
+
+<PaginaBase titulo="Seminário Astro">
+  <h1>Olá, bem-vindo ao Astro</h1>
+  
+  <Card 
+    titulo="Componentização"
+    descricao="Cada parte da página é um arquivo separado e reutilizável."
+  />
+  
+  <Card 
+    titulo="Sem JS por padrão"
+    descricao="O Astro envia só HTML puro para o navegador, pois fica bem mais rápido"
+  />
+  
+  <Card 
+    titulo="Ilhas de Hidratação"
+    descricao="JavaScript só é carregado nos pontos que realmente precisam de interatividade."
+  />
+</PaginaBase>

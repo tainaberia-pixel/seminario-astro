@@ -1,0 +1,13 @@
+{
+  "name": "seminario-astro",
+  "version": "1.0.0",
+  "description": "Exemplo prático - Seminário Web I",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build"
+  },
+  "dependencies": {
+    "astro": "^4.0.0"
+  }
+}
